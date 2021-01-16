@@ -110,7 +110,7 @@ $(function () {
         vertical: true,
         autoplaySpeed: 1300,
     });
-    ////////////////////////////////////  Vertical slider
+    ////////////////////////////////////  Horizontal slider
 
     $('.horizontal-slider').slick({
         slidesToShow: 1,

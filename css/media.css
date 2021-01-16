@@ -497,7 +497,6 @@
 
     .banner-text h4 {
         padding-bottom: 10px;
-        font-size: 40px;
     }
 
     .banner-text h1 {
@@ -508,7 +507,7 @@
 
     #banner {
         padding-top: 90px;
-        padding-bottom: 175px;
+        padding-bottom: 180px;
     }
 
     /**************************** ABOUT ****************************/
