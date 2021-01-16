@@ -105,19 +105,19 @@ $(function () {
         slidesToScroll: 2,
         prevArrow: false,
         nextArrow: false,
-        autoplay: true
+        autoplay: false,
         speed: 1200,
         vertical: true,
         autoplaySpeed: 1300,
     });
-    ////////////////////////////////////  Horizontal slider
+    ////////////////////////////////////  Vertical slider
 
     $('.horizontal-slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         prevArrow: false,
         nextArrow: false,
-        autoplay: true
+        autoplay: false,
         speed: 1200,
         autoplaySpeed: 1300,
     });
@@ -131,7 +131,7 @@ $(function () {
         arrows: true,
         prevArrow: '.prev',
         nextArrow: '.next',
-        autoplay: true
+        autoplay: false,
         speed: 1300,
         autoplaySpeed: 1900,
     });
@@ -162,7 +162,7 @@ $(function () {
 
     //////////////////////////////////// PRELOADER
     $(window).on('load', function () {
-        $('.preloader').delay(1000).fadeOut(600);
+        $('.preloader').delay(600).fadeOut(1000);
     });
 
     //////////////////////////////////// Back-Top   
