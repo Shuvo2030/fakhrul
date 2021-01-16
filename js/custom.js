@@ -105,7 +105,7 @@ $(function () {
         slidesToScroll: 2,
         prevArrow: false,
         nextArrow: false,
-        autoplay: false,
+        autoplay: true,
         speed: 1200,
         vertical: true,
         autoplaySpeed: 1300,
@@ -117,7 +117,7 @@ $(function () {
         slidesToScroll: 1,
         prevArrow: false,
         nextArrow: false,
-        autoplay: false,
+        autoplay: true,
         speed: 1200,
         autoplaySpeed: 1300,
     });
@@ -131,7 +131,7 @@ $(function () {
         arrows: true,
         prevArrow: '.prev',
         nextArrow: '.next',
-        autoplay: false,
+        autoplay: true,
         speed: 1300,
         autoplaySpeed: 1900,
     });
