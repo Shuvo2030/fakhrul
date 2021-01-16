@@ -1,0 +1,130 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 17/11/2020 07:36
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-instagram:before { content: "\f100"; }
+.flaticon-instagram-1:before { content: "\f101"; }
+.flaticon-instagram-2:before { content: "\f102"; }
+.flaticon-instagram-3:before { content: "\f103"; }
+.flaticon-facebook:before { content: "\f104"; }
+.flaticon-twitter:before { content: "\f105"; }
+.flaticon-facebook-1:before { content: "\f106"; }
+.flaticon-youtube:before { content: "\f107"; }
+.flaticon-youtube-1:before { content: "\f108"; }
+.flaticon-social-media:before { content: "\f109"; }
+.flaticon-tv:before { content: "\f10a"; }
+.flaticon-lcd-hd:before { content: "\f10b"; }
+.flaticon-display:before { content: "\f10c"; }
+.flaticon-smartphone:before { content: "\f10d"; }
+.flaticon-phone-call:before { content: "\f10e"; }
+.flaticon-phone:before { content: "\f10f"; }
+.flaticon-phone-1:before { content: "\f110"; }
+.flaticon-mobile-phone:before { content: "\f111"; }
+.flaticon-mobile-phone-1:before { content: "\f112"; }
+.flaticon-letter:before { content: "\f113"; }
+.flaticon-email:before { content: "\f114"; }
+.flaticon-email-1:before { content: "\f115"; }
+.flaticon-email-2:before { content: "\f116"; }
+.flaticon-letter-note:before { content: "\f117"; }
+.flaticon-letter-1:before { content: "\f118"; }
+.flaticon-facebook-2:before { content: "\f119"; }
+.flaticon-facebook-3:before { content: "\f11a"; }
+.flaticon-facebook-4:before { content: "\f11b"; }
+.flaticon-youtube-2:before { content: "\f11c"; }
+.flaticon-twitter-1:before { content: "\f11d"; }
+.flaticon-twitter-2:before { content: "\f11e"; }
+.flaticon-twitter-3:before { content: "\f11f"; }
+.flaticon-linkedin:before { content: "\f120"; }
+.flaticon-instagram-4:before { content: "\f121"; }
+.flaticon-telegram:before { content: "\f122"; }
+.flaticon-telegram-1:before { content: "\f123"; }
+.flaticon-tumblr:before { content: "\f124"; }
+.flaticon-whatsapp:before { content: "\f125"; }
+.flaticon-twitter-4:before { content: "\f126"; }
+.flaticon-rss:before { content: "\f127"; }
+.flaticon-pinterest:before { content: "\f128"; }
+.flaticon-pinterest-1:before { content: "\f129"; }
+.flaticon-pinterest-2:before { content: "\f12a"; }
+.flaticon-pinterest-3:before { content: "\f12b"; }
+.flaticon-pin:before { content: "\f12c"; }
+    
+    $font-Flaticon-instagram: "\f100";
+    $font-Flaticon-instagram-1: "\f101";
+    $font-Flaticon-instagram-2: "\f102";
+    $font-Flaticon-instagram-3: "\f103";
+    $font-Flaticon-facebook: "\f104";
+    $font-Flaticon-twitter: "\f105";
+    $font-Flaticon-facebook-1: "\f106";
+    $font-Flaticon-youtube: "\f107";
+    $font-Flaticon-youtube-1: "\f108";
+    $font-Flaticon-social-media: "\f109";
+    $font-Flaticon-tv: "\f10a";
+    $font-Flaticon-lcd-hd: "\f10b";
+    $font-Flaticon-display: "\f10c";
+    $font-Flaticon-smartphone: "\f10d";
+    $font-Flaticon-phone-call: "\f10e";
+    $font-Flaticon-phone: "\f10f";
+    $font-Flaticon-phone-1: "\f110";
+    $font-Flaticon-mobile-phone: "\f111";
+    $font-Flaticon-mobile-phone-1: "\f112";
+    $font-Flaticon-letter: "\f113";
+    $font-Flaticon-email: "\f114";
+    $font-Flaticon-email-1: "\f115";
+    $font-Flaticon-email-2: "\f116";
+    $font-Flaticon-letter-note: "\f117";
+    $font-Flaticon-letter-1: "\f118";
+    $font-Flaticon-facebook-2: "\f119";
+    $font-Flaticon-facebook-3: "\f11a";
+    $font-Flaticon-facebook-4: "\f11b";
+    $font-Flaticon-youtube-2: "\f11c";
+    $font-Flaticon-twitter-1: "\f11d";
+    $font-Flaticon-twitter-2: "\f11e";
+    $font-Flaticon-twitter-3: "\f11f";
+    $font-Flaticon-linkedin: "\f120";
+    $font-Flaticon-instagram-4: "\f121";
+    $font-Flaticon-telegram: "\f122";
+    $font-Flaticon-telegram-1: "\f123";
+    $font-Flaticon-tumblr: "\f124";
+    $font-Flaticon-whatsapp: "\f125";
+    $font-Flaticon-twitter-4: "\f126";
+    $font-Flaticon-rss: "\f127";
+    $font-Flaticon-pinterest: "\f128";
+    $font-Flaticon-pinterest-1: "\f129";
+    $font-Flaticon-pinterest-2: "\f12a";
+    $font-Flaticon-pinterest-3: "\f12b";
+    $font-Flaticon-pin: "\f12c";
